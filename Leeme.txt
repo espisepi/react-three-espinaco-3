@@ -1,0 +1,15 @@
+Features to implement (all with multiplayer aka socket.io version)
+
+- yuka dive
+-- https://github.com/Mugen87/dive
+
+- Minecraft game (copy to react three fiber minecraft):
+-- https://r3f.docs.pmnd.rs/getting-started/examples
+-- https://codesandbox.io/p/sandbox/vkgi6?file=%2Fsrc%2FApp.js
+
+- doom (copy to react three fiber doom): 
+-- https://github.com/eugeniosegala/doom-react-three-fiber/tree/master?tab=readme-ov-file
+
+- chat ai girlfriend:
+-- https://www.reddit.com/r/threejs/comments/185aska/3d_ai_girlfried_with_react_three_fiber/
+-- react open ai udemy fernando herrera curso
