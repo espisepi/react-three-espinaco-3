@@ -28,7 +28,7 @@ export default function MinecraftApp(): JSX.Element {
       <Canvas shadows camera={{ fov: 45 }}>
         <Sky sunPosition={[100, 20, 100]} />
         {/* @ts-ignore */}
-        <ambientLight intensity={1.0} />
+        <ambientLight intensity={2.0} />
         {/* @ts-ignore */}
         <pointLight castShadow intensity={0.8} position={[100, 100, 100]} />
         <Physics gravity={[0, -30, 0]}>
