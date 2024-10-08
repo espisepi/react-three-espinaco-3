@@ -1,5 +1,5 @@
 import { Canvas } from "@react-three/fiber"
-import { Sky, PointerLockControls, KeyboardControls } from "@react-three/drei"
+import { Sky, KeyboardControls } from "@react-three/drei"
 import { Physics } from "@react-three/rapier"
 import { Ground } from "../components/Ground"
 import { Player } from "../components/Player"
@@ -28,7 +28,7 @@ export default function MinecraftApp(): JSX.Element {
       <Canvas shadows camera={{ fov: 45 }}>
         <Sky sunPosition={[100, 20, 100]} />
         {/* @ts-ignore */}
-        <ambientLight intensity={0.3} />
+        <ambientLight intensity={1.0} />
         {/* @ts-ignore */}
         <pointLight castShadow intensity={0.8} position={[100, 100, 100]} />
         <Physics gravity={[0, -30, 0]}>
@@ -37,7 +37,7 @@ export default function MinecraftApp(): JSX.Element {
           <Cube position={[0, 0.5, -10]} />
           <Cubes />
         </Physics>
-        <PointerLockControls />
+        {/* <PointerLockControls /> */}
       </Canvas>
     </KeyboardControls>
   )

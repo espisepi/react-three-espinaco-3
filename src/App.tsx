@@ -2,9 +2,20 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import BooksApp from './features/r3f/books/apps/BooksApp'
+import MinecraftApp from './features/r3f/minecraft/apps/MinecraftApp'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  if(count === 1) {
+    return (
+      <>
+        <MinecraftApp />
+        <BooksApp />
+      </>
+    )
+  }
 
   return (
     <>
