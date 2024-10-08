@@ -1,6 +1,6 @@
 import { useCallback, useRef, useState } from "react"
 import { useTexture } from "@react-three/drei"
-import { RigidBody, RigidBodyApi } from "@react-three/rapier"
+import { RapierRigidBody, RigidBody } from "@react-three/rapier"
 import create from "zustand"
 import dirt from "../assets/dirt.jpg"
 import { MeshProps, ThreeEvent } from "@react-three/fiber"
@@ -36,7 +36,7 @@ interface CubeProps extends MeshProps {
 }
 
 export const Cube: React.FC<CubeProps> = (props) => {
-  const ref = useRef<RigidBodyApi>(null)
+  const ref = useRef<RapierRigidBody>(null)
   const [hover, setHover] = useState<number | null>(null)
   const addCube = useCubeStore((state) => state.addCube)
   const texture = useTexture(dirt) as THREE.Texture
