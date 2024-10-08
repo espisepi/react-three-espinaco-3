@@ -67,7 +67,7 @@ export function Player({ lerp = THREE.MathUtils.lerp }: PlayerProps): JSX.Elemen
       >
         <CapsuleCollider args={[0.75, 0.5]} />
       </RigidBody>
-      <group ref={axe} onPointerMissed={(e: MouseEvent) => (axe.current!.children[0].rotation.x = -0.5)}>
+      <group ref={axe} onPointerMissed={() => (axe.current!.children[0].rotation.x = -0.5)}>
         <Axe position={[0.3, -0.35, 0.5]} />
       </group>
     </>

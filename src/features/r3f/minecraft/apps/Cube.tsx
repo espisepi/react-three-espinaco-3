@@ -2,7 +2,7 @@ import { useCallback, useRef, useState } from "react"
 import { useTexture } from "@react-three/drei"
 import { RigidBody, RigidBodyApi } from "@react-three/rapier"
 import create from "zustand"
-import dirt from "../../../../assets/dirt.jpg"
+import dirt from "../assets/dirt.jpg"
 import { MeshProps, ThreeEvent } from "@react-three/fiber"
 import * as THREE from "three"
 

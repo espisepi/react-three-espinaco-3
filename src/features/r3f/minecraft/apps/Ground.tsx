@@ -1,7 +1,7 @@
 import * as THREE from "three"
 import { useTexture } from "@react-three/drei"
 import { CuboidCollider, RigidBody, RigidBodyProps } from "@react-three/rapier"
-import grass from "../../../../assets/grass.jpg"
+import grass from "../assets/grass.jpg"
 // import { MeshProps } from "@react-three/fiber"
 
 export function Ground(props: RigidBodyProps): JSX.Element {

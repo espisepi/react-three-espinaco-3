@@ -8,7 +8,7 @@ title: Minecraft Diamond Axe
 
 import { useGLTF } from "@react-three/drei"
 // @ts-ignore
-import axeUrl from "../../../../assets/axe.glb"
+import axeUrl from "../assets/axe.glb"
 import { GroupProps } from "@react-three/fiber"
 import * as THREE from "three";
 import { GLTF } from "three-stdlib";
