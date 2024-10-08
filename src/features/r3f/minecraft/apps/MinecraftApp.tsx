@@ -1,9 +1,9 @@
 import { Canvas } from "@react-three/fiber"
 import { Sky, PointerLockControls, KeyboardControls } from "@react-three/drei"
 import { Physics } from "@react-three/rapier"
-import { Ground } from "./Ground"
-import { Player } from "./Player"
-import { Cube, Cubes } from "./Cube"
+import { Ground } from "../components/Ground"
+import { Player } from "../components/Player"
+import { Cube, Cubes } from "../components/Cube"
 
 // The original was made by Maksim Ivanow: https://www.youtube.com/watch?v=Lc2JvBXMesY&t=124s
 // This demo needs pointer-lock, that works only if you open it in a new window
