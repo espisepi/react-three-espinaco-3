@@ -4,6 +4,15 @@ Features to implement (all with multiplayer aka socket.io version)
 -- 0 - Crear carpeta de proyecto gta-sketchbook dentro de la carpeta features/r3f/
 -- 1 - Estudiar la arquitectura de las apps playroom kit (car y sims agora)
 -- 2 - Replicar esa arquitectura con el codigo y assets de Sketchbook (con playroom kit añadido)
+--- 2.1 - "Clonar" el proyecto de r3f-readyplayerme_withagora
+--- 2.2 - Una vez tengamos el proyecto clonado al completo, le añadiremos las funcionalidades de los vehiculos:
+---- 2.2.1 - Car Vehicle + animacion de entrar y salir en Car Vehicle
+---- 2.2.2 - Plane Vehicle + animacion de entrar y salir en Plane Vehicle
+---- 2.2.3 - Helicopter Vehicle + animacion de entrar y salir en Helicopter Vehicle
+-- 3 - Añadir Escenas visuales de conciertos musicales y crear distintos escenarios trambolikos
+-- 4 - Permitir que los usuarios puedan crear sus propios escenarios y convertir el proyecto en una red social (los escenarios mios propios estaran asociados a mi usuario)
+
+
 
 - gta online con car, airplane y andando con ejemplos de roomkit
 
