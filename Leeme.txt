@@ -1,6 +1,7 @@
 Features to implement (all with multiplayer aka socket.io version)
 
-- Replicar gta Sketchbook con componentes r3f siguiendo la arquitectura de las apps de playroom kit.
+- proyecto ultimate-react-three-espinaco-3:
+-- Replicar gta Sketchbook con componentes r3f siguiendo la arquitectura de las apps de playroom kit.
 -- 0 - Crear carpeta de proyecto gta-sketchbook dentro de la carpeta features/r3f/
 -- 1 - Estudiar la arquitectura de las apps playroom kit (car y sims agora)
 -- 2 - Replicar esa arquitectura con el codigo y assets de Sketchbook (con playroom kit añadido)
