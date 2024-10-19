@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import BooksApp from './features/r3f/books/apps/BooksApp'
 import MinecraftApp from './features/r3f/minecraft/apps/MinecraftApp'
+import FlightApp from './features/r3f/flight/apps/FlightApp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
       <>
         <MinecraftApp />
         <BooksApp />
+        <FlightApp />
       </>
     )
   }
