@@ -1,4 +1,4 @@
-import { Box, useGLTF } from "@react-three/drei";
+import { useGLTF } from "@react-three/drei";
 import { GroupProps } from "@react-three/fiber";
 // @ts-ignore
 import airplaneUrl from "../../assets/airplane.glb";
