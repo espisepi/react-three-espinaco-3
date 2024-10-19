@@ -1,6 +1,6 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
-import { Sky, Environment, OrbitControls, Box } from "@react-three/drei";
+import { Sky, Environment, OrbitControls } from "@react-three/drei";
 import { Airplane } from "../components/airplane/Airplane";
 
 const Scene: React.FC = () => {
